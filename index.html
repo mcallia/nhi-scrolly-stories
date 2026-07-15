@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Northern Headwaters — Guided Map Tours</title>
+<meta name="description" content="Three scroll-driven guided map tours of proposed protected areas in northern British Columbia: the Meziadin, the Klappan, and Dene K'éh Kusān.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1c2b23; --paper:#f6f4ee; --card:#ffffff; --accent:#1e5c3f; --muted:#5c6b61;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --ink:#e8ece7; --paper:#141a16; --card:#1d2620; --accent:#7fc39d; --muted:#93a398; }
+  }
+  *{box-sizing:border-box;margin:0}
+  body{background:var(--paper);color:var(--ink);font-family:Barlow,system-ui,sans-serif;line-height:1.55;
+       min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:clamp(24px,6vw,72px) 20px}
+  header{max-width:720px;text-align:center;margin-bottom:clamp(28px,5vw,52px)}
+  h1{font-family:"Barlow Condensed",sans-serif;font-weight:700;font-size:clamp(2rem,6vw,3.2rem);
+     letter-spacing:.02em;text-transform:uppercase;color:var(--accent)}
+  header p{font-family:"Source Serif 4",serif;font-size:clamp(1.02rem,2.4vw,1.2rem);color:var(--muted);margin-top:12px}
+  main{display:grid;gap:20px;width:100%;max-width:720px}
+  a.card{display:block;background:var(--card);border-radius:14px;padding:24px 26px;text-decoration:none;color:inherit;
+         border:1px solid rgba(128,128,128,.18);box-shadow:0 1px 4px rgba(0,0,0,.06);transition:transform .15s ease, box-shadow .15s ease}
+  a.card:hover{transform:translateY(-2px);box-shadow:0 6px 18px rgba(0,0,0,.10)}
+  a.card h2{font-family:"Barlow Condensed",sans-serif;font-weight:600;font-size:1.5rem;color:var(--accent)}
+  a.card p{color:var(--muted);margin-top:6px;font-size:.98rem}
+  a.card span{display:inline-block;margin-top:12px;font-weight:600;font-size:.92rem;color:var(--accent)}
+  footer{margin-top:clamp(32px,6vw,60px);font-size:.85rem;color:var(--muted);text-align:center}
+</style>
+</head>
+<body>
+<header>
+  <h1>Guided Map Tours</h1>
+  <p>Three scroll-driven journeys through proposed protected areas in northern British Columbia — from the whole-province view down to the creek, coalfield, or river valley that makes the case.</p>
+</header>
+<main>
+  <a class="card" href="meziadin-story.html">
+    <h2>The Meziadin</h2>
+    <p>Headwaters of the Nass — where three-quarters of the river's sockeye begin. Gitanyow and Nisga'a territories.</p>
+    <span>Take the tour →</span>
+  </a>
+  <a class="card" href="klappan-story.html">
+    <h2>The Klappan · Sacred Headwaters</h2>
+    <p>One basin, three great rivers — the Skeena, Nass, and Stikine. Tahltan territory.</p>
+    <span>Take the tour →</span>
+  </a>
+  <a class="card" href="kaska-story.html">
+    <h2>Dene K'éh Kusān</h2>
+    <p>Three million hectares in the "Serengeti of the north." Kaska Dena territory.</p>
+    <span>Take the tour →</span>
+  </a>
+</main>
+<footer>Best experienced with sound off and scroll on. Each tour ends with a way to show your support.</footer>
+</body>
+</html>
